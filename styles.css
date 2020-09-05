@@ -14,7 +14,14 @@ body {
   background-size: cover;
   align-content: space-around;
 }
+.header {
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #0fb9b1;
+  height: 400px;
+  width: 100%;
 
+}
 .box {
   height: 40%;
   width:40%;
@@ -23,4 +30,8 @@ body {
   background-color: rgba(225, 225, 225, .9);
 }
 .box:nth-child(1) {
+  justify-content:space-around;
+}
+.cooker {
+  background-color: #0fb9b1;
 }
