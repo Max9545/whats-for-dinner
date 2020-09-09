@@ -13,25 +13,38 @@ body {
   background-image: url('assets/burger-friends.jpg');
   background-size: cover;
   align-content: space-around;
+  flex-wrap: wrap;
 }
-.header {
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: #0fb9b1;
-  height: 400px;
-  width: 100%;
 
+
+.header {
+  height: 15%;
+  width: 100%;
+  margin-top: 0px;
+  border-color: red;
+  border-style: dashed;
+  margin-top: 0%;
+  text-align: start;
+  background-color: #0fb9b1;
+  justify-content: space-between;
 }
 .box {
-  height: 40%;
-  width:40%;
-  margin:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  width: 10%;
+  margin: 5px 60px;
+  padding: 30px 8px 10px 8px;
   border-style: solid;
   background-color: rgba(225, 225, 225, .9);
 }
 .box:nth-child(1) {
   justify-content:space-around;
 }
-.cooker {
-  background-color: #0fb9b1;
+svg {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
